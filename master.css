@@ -1,0 +1,82 @@
+body{
+    background-image: url("https://thumbs.gfycat.com/IdealWildHairstreakbutterfly-size_restricted.gif");
+    background-size: cover;
+    image-orientation: initial;
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: ivory;
+}
+
+h1 {
+    display: flex;
+    margin: auto;
+    max-width: 55%;
+    size: 35%;
+    justify-content: center;
+    border: solid 1px ivory;
+    box-shadow: 3px 3px lightslategrey, -1em 0 .4em blue;
+    padding: auto;
+}
+
+.start {
+    margin-top: 3%;
+    display: grid;
+    justify-content: center;
+    height: 50pt;
+}
+
+#startButton {
+    background-image: url("https://www.online-stopwatch.com/images/dice.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: pt;
+    width: 200%;
+    color: blue;
+    font-size: 20pt;
+    font-weight: bolder;
+    font-family: impact;
+    letter-spacing: 16px;
+    box-shadow: 3px 3px lightslategrey, -1em 0 .4em blue;
+  
+}
+
+.buttons {
+    display: flex;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+#hit {
+    margin-right: 20%;
+    background-image: url("https://img.pngio.com/ace-of-spades-png-98-images-in-collection-page-1-ace-of-spades-png-hd-900_800.jpg");
+    background-repeat: no-repeat;
+    background-size: 15pt;
+    background-position: center;
+    letter-spacing: 7pt;
+    text-indent: 5pt;
+    box-shadow: 3px 3px blue, -2em 0 .3em crimson;
+}
+
+#stay {
+    margin-left: 20%; 
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png");
+    background-repeat: repeat;
+    background-size: 10px;
+    background-position: center;
+    letter-spacing: 9pt;
+    text-indent: 5pt;
+    height: 35pt;
+    box-shadow: 3px 3px silver, -2em 0 .3em blue;
+    /* border-top-left-radius: 25pt;
+    border-top-right-radius: 25pt; */
+   
+}
+
+#cards {
+    width: 50%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: Impact;
+}
