@@ -1,5 +1,6 @@
-body{
-    background-image: url("https://thumbs.gfycat.com/IdealWildHairstreakbutterfly-size_restricted.gif");
+ body{
+    /* background-image: url("https://thumbs.gfycat.com/IdealWildHairstreakbutterfly-size_restricted.gif"); */
+    background-color: black;
     background-size: cover;
     image-orientation: initial;
     height: 100vh;
@@ -7,7 +8,8 @@ body{
     color: ivory;
 }
 
-h1 {
+
+/* h1 {
     display: flex;
     margin: auto;
     max-width: 55%;
@@ -67,16 +69,16 @@ h1 {
     letter-spacing: 9pt;
     text-indent: 5pt;
     height: 35pt;
-    box-shadow: 3px 3px silver, -2em 0 .3em blue;
+    box-shadow: 3px 3px silver, -2em 0 .3em blue; */
     /* border-top-left-radius: 25pt;
     border-top-right-radius: 25pt; */
    
-}
+/* } */
 
-#cards {
+/* #cards {
     width: 50%;
     display: grid;
     margin: auto;
     grid-template-columns: repeat(2, 1fr);
     font-family: Impact;
-}
+} */ 
